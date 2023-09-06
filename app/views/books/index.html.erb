@@ -1,2 +1,39 @@
-<h1>Books#index</h1>
-<p>Find me in app/views/books/index.html.erb</p>
+<div class="body-box">
+<h1>Books</h1>
+
+<div class="index-box">
+    <% @books.each do |book| %>
+    <p class="index-title">タイトル</p>
+    <span><%= book.title %></span>
+    <p class="index-body">Body</p>
+    <span><%= book.body %></span>
+    
+    
+        <div class="index-link">
+            <span class="box-link">
+            <%= link_to 'Show', '/books/#{book.id}' %>
+            </span>
+            <span class="box-link">
+            <%= link_to 'Edit', '/edit_book' %>
+            </span>
+            <span class="box-link">
+            <%= link_to "Destroy", book_path(book.id), method: :delete, "data-confirm" => "Are you sure" %>
+            </span>
+        </div>
+    <% end %>
+</div>
+
+<div class="create-box">
+ <h2>New book</h2>
+    <%= form_with model: @book do |f| %>
+    <h4>タイトル</h4>
+    <%= f.text_field :title %> 
+
+    <h4>本文</h4>
+    <%= f.text_area :body %>
+</div>
+
+<%= f.submit 'Create Book' %>
+<% end %>
+
+</div>
