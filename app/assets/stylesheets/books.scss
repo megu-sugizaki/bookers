@@ -10,8 +10,30 @@
 .body-box{
     margin-top:33px;
     margin-left:33px;
+    text-align: left;
 }
 
-.index-title, .index-body{
+.books{
+    font-size:25px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+thead{
     font-weight:bold;
 }
+
+.body{
+    margin-right:10px;
+}
+
+.create-box{
+    margin-top:33px;
+}
+
+.new-book{
+    font-size:20px;
+    font-weight:bold;
+}
+
+
