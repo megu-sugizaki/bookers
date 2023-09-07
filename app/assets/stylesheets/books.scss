@@ -1,12 +1,13 @@
 // Place all the styles related to the books controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+// indexページのcss
 .body-box{
     margin-top:33px;
     margin-left:33px;
@@ -36,4 +37,44 @@ thead{
     font-weight:bold;
 }
 
+// showページのcss
+
+.show-box{
+    margin-top: 20px;
+    margin-left: 50px;
+    line-height:50px;
+}
+
+.url-box{
+    margin-top:25px;
+    margin-left:25px;
+}
+
+.show-edit{
+    border-right:solid;
+    border-width:thin;
+    padding-right:5px;
+}
+
+// editページのcss
+.edit-box{
+    display:block;
+    margin-top: 33px;
+    margin-left: 33px;
+}
+
+.edit-head{
+    margin-bottom: 15px;
+    
+}
+
+.edit-body{
+    margin-bottom:5px;
+}
+
+.edit-show{
+    border-right:solid;
+    border-width:thin;
+    padding-right:5px;
+}
 
