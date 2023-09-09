@@ -10,14 +10,14 @@
 // indexページのcss
 .body-box{
     margin-top:33px;
-    margin-left:33px;
+    margin-left:10px;
     text-align: left;
 }
 
 .books{
     font-size:25px;
     font-weight:bold;
-    margin-bottom:15px;
+    margin-bottom:5px;
 }
 
 thead{
@@ -26,6 +26,7 @@ thead{
 
 .body{
     margin-right:10px;
+    line-height: 1px;
 }
 
 .create-box{
@@ -43,6 +44,10 @@ thead{
     margin-top: 20px;
     margin-left: 50px;
     line-height:50px;
+}
+
+.flash-show{
+    color: green;
 }
 
 .url-box{
