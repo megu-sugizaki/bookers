@@ -38,6 +38,12 @@ thead{
     font-weight:bold;
 }
 
+.error-title, .error-body{
+    border:solid;
+    border-width: thin;
+    width: 300px;
+}
+
 // showページのcss
 
 .show-box{
