@@ -40,12 +40,27 @@ thead{
 .new-book{
     font-size:20px;
     font-weight:bold;
+    padding-bottom: 10px;
 }
 
-.error-title, .error-body{
+.error-title{
     border:solid;
     border-width: thin;
-    width: 300px;
+    width: 400px;
+    padding-left: 15px;
+}
+
+.error-body{
+    border-right:solid;
+    border-bottom:solid;
+    border-left:solid;
+    border-width: thin;
+    width: 400px;
+    padding-left: 15px;
+}
+
+.new-title, .new-body{
+    padding-top:10px;
 }
 
 // showページのcss
