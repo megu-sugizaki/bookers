@@ -1,20 +1,20 @@
 <div class="show-box">
-　<div class="flash-show">
+    <div class="flash-show">
     <%= flash[:notice] %>
-　</div>
+    </div>
 
-　<p>
-　　<strong>Title:</strong>
-　　<%= @book.title %>
-　</p>
+    <p>
+        <strong>Title:</strong>
+        <%= @book.title %>
+    </p>
 
-　<p>
-　　<strong>Body:</strong>
-　　<%= @book.body %>
+    <p>
+        <strong>Body:</strong>
+        <%= @book.body %>
 </p>
 </div>
 
 <div class="url-box">
-　<span class="show-edit"><%= link_to "Edit", edit_book_path(@book.id) %></span>
-　<span><%= link_to "Back", books_path(@book.id) %></span>
+    <span class="show-edit"><%= link_to "Edit", edit_book_path(@book.id) %></span>
+    <span><%= link_to "Back", books_path(@book.id) %></span>
 </div>
